@@ -1,9 +1,10 @@
 {% extends 'base.html' %}
 
-{% block title %} Predict your salasy using AI {% endblock %}
+{% block title %} Predict your salary using AI {% endblock %}
 
 
 {% block body %} 
+<h1>Predict your salary using AI</h1>
 
 <label for="ageSelect">Choose your age range:</label>
 
@@ -22,6 +23,11 @@
   <option value="10">70+</option>
 </select>
 
+<br>
+<br>
+<br>
+<br>
+
 <label for="genderSelect">Gender:</label>
 <select id="genderSelect">
   <option value=""> -- select gender -- </option>
@@ -31,6 +37,11 @@
   <option value="3">Prefer to self-describe</option>
   <option value="4">Woman</option>
 </select>
+
+<br>
+<br>
+<br>
+<br>
 
 <label for="countrySelect">Country:</label>
 <select id="countrySelect">
@@ -95,6 +106,11 @@
   <option value="57">Zimbabwe</option>
 </select>
 
+<br>
+<br>
+<br>
+<br>
+
 <label for="degreeSelect">Highest Degree:</label>
 <select id="degreeSelect">
   <option value=""> -- select degree -- </option>
@@ -107,6 +123,11 @@
   <option value="6">Some college/university study without earning a bachelor's degree</option>
 </select>
 
+<br>
+<br>
+<br>
+<br>
+
 <label for="experienceSelect">Code Experience:</label>
 <select id="experienceSelect">
   <option value=""> -- select code experience -- </option>
@@ -118,6 +139,11 @@
   <option value="5">&lt; 1 years</option>
   <option value="6">I have never written code</option>
 </select>
+
+<br>
+<br>
+<br>
+<br>
 
 <label for="titleSelect">Current Title:</label>
 <select id="titleSelect">
@@ -138,6 +164,10 @@
   <option value="13">Teacher / professor</option>
 </select>
 
+<br>
+<br>
+<br>
+<br>
 
 <label for="sizeSelect">Company Size:</label>
 <select id="sizeSelect">
@@ -149,6 +179,11 @@
   <option value="4">50-249 employees</option>
 </select>
  
+<br>
+<br>
+<br>
+<br>
+
 <form action="/predict" method="POST">
     <button type="submit">Submit</button>
   </form>
