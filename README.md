@@ -1,33 +1,24 @@
-# Flask Template
-Basic structure for starting a Flask project with Jinja templates
+# Developers
+Hunter Gibson & Robert Mullan
 
----
-1. Clone this repository to local computer
+# Application Description
+This web application allows users to predict their salary using AI. Users input various demographic and professional information, and the application employs AI algorithms to provide an estimate of their salary.
 
-2. Rename the directory to reflect the new project name
+# Instructions to run
+1. Go to this link to see the web form live (hunter-gibson-robert-mullan.azurewebsites.net)
 
-3. Delete .git folder
+2. Age Range: Select your age range from the dropdown menu provided.
 
-4. Create a new virtual environment 
-    - Windows:  ```python -m venv ./venv```
-    - Mac:  ```python3 -m venv ./venv```
+3. Gender: Choose your gender from the dropdown menu. Options include Man, Nonbinary, Prefer not to say, Prefer to self-describe, and Woman.
 
-5. Activate the new virtual environment
-   - Windows:  ```.\venv\Scripts\activate```
-   - Mac:  ```source ./venv/bin/activate```
+4. Country: Select your country of residence from the dropdown menu. A wide range of countries is available for selection.
 
-6. Install the dependencies ```pip install -r requirements.txt```
+5. Highest Degree: Choose your highest degree attained from the dropdown menu. 
 
-7. Make a new repository by running ```git init``` in the folder.
+6. Code Experience: Select your level of coding experience from the dropdown menu. Options range from never writing code to 20+ years of experience.
 
-8. Track all the files in the new local repository ```git add .```
+7. Current Title: Choose your current job title from the dropdown menu. Various options are available, including Data Administrator, Data Analyst, Data Scientist, Software Engineer, and more.
 
-9. Make the first commit of this new project ```git commit -m 'first commit of <project name> from flask_template```
+8. Company Size: Select the size of your current company from the dropdown menu. Options include various employee ranges from 0-49 employees to 10,000 or more employees.
 
-10. On Github, create a new repository. *DO NOT* initialize it
-
-11. Connect the local repository to the new Github repository ```git remote add origin <<repository_URL>>```
-
-12. Create and change to a new local development branch ```git checkout b development```
-
-13. Continue working with the project as you normally would.
+9. Submit: Once you have filled in all the necessary information, click the "Submit" button to receive a salary prediction based on the provided data.
